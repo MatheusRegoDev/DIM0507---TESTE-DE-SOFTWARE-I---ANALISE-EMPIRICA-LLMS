@@ -10,3 +10,5 @@ __pycache__/
 
 /referencia-evosuite/
 /evidencias-piloto-ablacao/
+
+.idea/

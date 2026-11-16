@@ -1,0 +1,19 @@
+services:
+  experimento:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dim0507-teste-llms
+    env_file:
+      - .env
+    volumes:
+      # Sincroniza o código e os relatórios gerados (target/, analises/, etc.) com a máquina host
+      - .:/workspace
+      # Mantém o cache .m2 dentro de um volume Docker para não baixar tudo de novo ao rebuildar
+      - maven_cache:/root/.m2
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
+
+volumes:
+  maven_cache:

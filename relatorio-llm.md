@@ -4,16 +4,16 @@ Substituam os campos entre colchetes. Preservem os títulos, os nomes dos perfis
 
 ## Identificação e ambiente
 
-- Integrantes: [nomes completos da dupla ou trio]
-- artifactId: [valor no pom.xml]
-- Java: [versão]
-- Maven: [versão]
-- Sistema operacional: [nome e versão]
+- Integrantes: Geraldo Lucas, Marcelo José e Matheus Rodrigues
+- artifactId: GeraldoLucas-MarceloJose-MatheusRodrigues
+- Java: 17 (Eclipse Temurin OpenJDK 17)
+- Maven: 3.9.x
+- Sistema operacional: Ubuntu 24.04 LTS (ambiente padronizado via container Docker `maven:3.9-eclipse-temurin-17`)
 
 ## Reprodução das consultas por API
 
 - Configuração oficial: Groq Free, `openai/gpt-oss-120b`
-- Python: [versão]
+- Python: 3.12.x
 - Plano congelado: [manifesto](plano-llm/manifesto.json)
 - Ordem, tentativas e metadados: [log da API](evidencias/eventos.jsonl)
 - Comando utilizado: `python3 scripts/gerar_testes_llm.py gerar`

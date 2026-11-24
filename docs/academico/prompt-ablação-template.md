@@ -8,7 +8,7 @@ Classe `ConsolidacaoParcial` no pacote `br.com.academico`.
 
 ```java
 public static SituacaoAcademica consolidarParcialmente(
-    Float nota1, Float nota2, Float nota3, Integer frequencia)
+    Float nota1, Float nota2, Float nota3, Integer frequencia);
 ```
 
 O enum de retorno `SituacaoAcademica` contém `REMF`, `REPF`, `REP`, `APR`, `APRN` e `REC`.

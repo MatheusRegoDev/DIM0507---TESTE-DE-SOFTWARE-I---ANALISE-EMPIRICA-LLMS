@@ -8,7 +8,9 @@ __pycache__/
 .env.*
 !.env.example
 
-/referencia-evosuite/
 /evidencias-piloto-ablacao/
+
+# Planilha local de acompanhamento dos projetos
+/outputs/checkpoints-projeto/
 
 .idea/

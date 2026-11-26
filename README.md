@@ -74,7 +74,7 @@ O uso do script e da API é obrigatório nas quatro condições. O manifesto ide
 | 1 — 17/11 | Configuração do acesso à LLM via API | O piloto exibe `piloto: ok` e salva a evidência da consulta em `evidencias-piloto/`. |
 | 2 — 24/11 | Informações produzidas pela aplicação dos critérios de teste | As análises caixa-preta e caixa-branca das três funcionalidades registram classes de equivalência, valores-limite, regras de decisão e obrigações de cobertura aplicáveis. |
 | 3 — 01/12 | Prompts completos e dados iniciais | O grupo entrega o plano com os 12 prompts de ablação e o manifesto. Os prompts são congelados antes das consultas oficiais. Os dados iniciais incluem as primeiras requisições, respostas e medições disponíveis. |
-| 4 — 08/12 | Entrega final | O projeto inclui as 12 suítes, as evidências de execução e o relatório com métricas, comparação com EvoSuite e discussão das ablações. |
+| 4 — 08/12 | Entrega final | O projeto inclui as 12 suítes, as evidências de execução e o relatório com métricas e discussão das ablações. |
 
 Entreguem uma versão cumulativa a cada semana.
 
@@ -108,10 +108,6 @@ Para cada funcionalidade, apresentem lado a lado o número de testes, falhas e e
 O tsDetect inspeciona o código dos testes em busca de padrões que podem dificultar a leitura, a manutenção ou o diagnóstico de falhas. O perfil `tsdetect` analisa a suíte selecionada e registra a quantidade de ocorrências por tipo. Na primeira execução, a ferramenta é baixada e compilada. Tenham Git, Maven, Java e Python 3.9 ou superior disponíveis no terminal.
 
 Para cada suíte, registrem o número de métodos reconhecidos, o total de ocorrências e os tipos detectados. Na comparação, considerem o tamanho das suítes e expliquem, com um trecho ou método, os achados mais relevantes. Quando o detector não reconhecer os testes ou a medição falhar, registrem `ND` com a justificativa. Preservem os achados da suíte medida e registrem eventuais propostas de melhoria no relatório.
-
-## Referência externa com EvoSuite
-
-A referência externa do EvoSuite será fornecida separadamente pelo docente. Usem os resultados distribuídos para a comparação no relatório. As asserções do EvoSuite registram o comportamento observado e podem ser analisadas frente à especificação.
 
 ## Entrega e critérios de correção
 
